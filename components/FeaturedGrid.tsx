@@ -36,7 +36,7 @@ const FEATURED: Item[] = [
 
 export default function FeaturedGrid() {
   return (
-    <div className="grid grid-cols-1 gap-2 md:grid-cols-3">
+    <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
       {FEATURED.map((tool) => (
         <div key={tool.name} className="group rounded-3xl bg-white p-6 shadow-xl ring-1 ring-gray-100 transition hover:shadow-xl">
           <div className="flex items-center gap-3">
